@@ -13,10 +13,16 @@ Welcome to **SaaS Nexus**, a modern Software-as-a-Service platform built with pe
 ## 🏗 Project Architecture
 
 ```text
-SaaS-Nexus/
-├── client/          # React + Vite frontend
-├── server/          # Node.js + Express backend
-└── documentation/   # Design assets and API docs
+src/
+ ├── components/     // reusable UI (cards, buttons, sidebar)
+ ├── pages/          // full pages (Dashboard, Users,Settings)
+ ├── layouts/        // layout wrappers (Sidebar + Navbar)
+ ├── hooks/          // custom hooks
+ ├── services/       // API logic (later)
+ ├── utils/          // helpers
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
 ```
 
 ## 🚀 Getting Started
@@ -25,4 +31,4 @@ SaaS-Nexus/
 
 ---
 
-*Built with ❤️ by [Your Name]*
+*Built with ❤️ by [Ayush Kumar]*
