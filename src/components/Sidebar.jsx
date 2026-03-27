@@ -11,11 +11,12 @@ export default function Sidebar() {
         </div>
         
         <nav className="space-y-1">
-          <SidebarItem label="Dashboard" active />
-          <SidebarItem label="Analytics" />
-          <SidebarItem label="Customers" badge="12" />
-          <SidebarItem label="Settings" />
+          <SidebarItem label="Dashboard" to="/" />
+          <SidebarItem label="Analytics" to="/analytics" />
+          <SidebarItem label="Customers" to="/customers" badge="12" />
+          <SidebarItem label="Settings" to="/settings" />
         </nav>
+
       </div>
     </aside>
   );
